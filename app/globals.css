@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+div[data-testid="field-group-tabs"]
+  > div:has(button[data-testid="group-tab-"][name="all-fields"]) {
+  display: none;
+  visibility: hidden;
+}

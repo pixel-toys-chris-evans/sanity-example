@@ -2,7 +2,8 @@
 const nextConfig = {
   experimental: {
     appDir: true,
+    turbo: {},
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
